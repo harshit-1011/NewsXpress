@@ -1,0 +1,41 @@
+ <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/"><i class="fa-solid fa-earth-oceania"
+          style="color: #f80b0b;"></i>&nbsp;NewsXpress</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="/?q=everything&pageno=1"><i class="fa-solid fa-house" style="color: #fa0000;"></i>&nbsp;Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/?q=Weather&pageno=1"><i class="fa-solid fa-cloud" style="color: #f90606;"></i>&nbsp;Weather</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/?q=transport&pageno=1"><i class="fa-solid fa-truck-arrow-right" style="color: #fa0505;"></i>&nbsp;Transport</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/?q=Education&pageno=1"><i class="fa-solid fa-school" style="color: #fc0303;"></i>&nbsp;Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/?q=India&pageno=1"><i class="fa-solid fa-flag" style="color: #fe0101;"></i>&nbsp;India</a>
+          </li>
+          
+          {{!-- <li class="nav-item">
+            <a class="nav-link" href="/?q=Indian+weather&pageno=1">Indian Weather</a>
+          </li> --}}
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" name="q" type="search" placeholder="Search" aria-label="Search" />
+          <input class="form-control me-2" name="pageno" type="hidden" value="1" placeholder="Search"
+            aria-label="Search" />
+          <button class="btn btn-outline-success" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </div>
+  </nav>
